@@ -54,7 +54,7 @@
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource" />
         <!-- 自动扫描mapping.xml文件 -->
-        <property name="mapperLocations" value="classpath:/com/mvc/demo/mapper/*.xml"></property>
+        <property name="mapperLocations" value="classpath:/com/mvc/demo/mapper/*Mapper.xml"/>
     </bean>
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<property name="basePackage" value="com.mvc.demo.dao" />

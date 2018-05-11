@@ -1,8 +1,8 @@
 package com.mvc.demo.service;
 
-import javax.annotation.Resource;
-
 import com.mvc.demo.model.FirstModel;
+
+import javax.annotation.Resource;
 
 /**
  * Created by AB052409 on 2016/12/6.
